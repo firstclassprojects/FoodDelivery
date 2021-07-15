@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 html{
@@ -59,11 +60,12 @@ html{
 }
 
 #navbar ul li a{
-    color: white;
+    color: pink;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
+    z-index: 12;
 }
 
 #navbar ul li a:hover{
@@ -141,7 +143,7 @@ html{
  background: url('../bg.jpg');
  width: 100%;
  height: 100%;
- z-index: -1;
+ z-index: -6;
  opacity: 0.3;
 }
 
