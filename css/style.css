@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 html{
@@ -21,7 +20,6 @@ html{
     position: sticky;
     top: 0px;
     padding: 34px 34px;
-    z-index: 10;
 }
 
 #navbar::before{
@@ -60,12 +58,11 @@ html{
 }
 
 #navbar ul li a{
-    color: pink;
+    color: white;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
-    z-index: 12;
 }
 
 #navbar ul li a:hover{
